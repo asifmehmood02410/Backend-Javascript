@@ -14,6 +14,7 @@
 
 +++++  src folder  ++++++
 -   This folder will hold my all components my all logic files.
+-   create folders in src controllers, db, middlewares, routes, utils
 
 
 +++++  nodemon packege  ++++++
@@ -30,5 +31,11 @@
 +++++  package.json  ++++++
 -   add "type" : "module" in this file before "script". It is used to "import" the required package if i set commonJs instead of module then "required" key word use to import the package.
 
++++++  prettier package  ++++++
+-   install prettier package in dev Dependency for the code formate consistancy. When multiple users will work on this project we will set the formate layout using prettier package.
+-   command " npm install -D prettier"
+-   After installation add these two files in your project.  
+-   ".prettierrc" (it save prettier configuration. you can also read the documentation of this) 
+-   ".prettierignore" (it save these files name which we mentioned that where prettier formatting will not work, you can also get general files from Google by prettier ignore generator)
 
 
