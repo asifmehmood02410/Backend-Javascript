@@ -1,3 +1,9 @@
+How to setup a Backend Project Professionally.
+
+-   Create Folder and set professional name of your folder
+-   Go into terminal of VS code and set command "npm init"
+
+
 -   git cannt push empty folders in github untill unless any one file will exist in folder
 
 +++++  Public/temp folders  ++++++
