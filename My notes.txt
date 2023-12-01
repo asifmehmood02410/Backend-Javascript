@@ -1,0 +1,34 @@
+-   git cannt push empty folders in github untill unless any one file will exist in folder
+
++++++  Public/temp folders  ++++++
+-   Store your pictures in Publich Folder > temp. This file will be mostly empty beacuse picture will save in AWS cloud. But we save our picture in my local project temporarly in Public>temp folder. For the sake of git we will create a .gitkeep file in temp folder to puch all folders and files in git hub repristry. 
+
+
++++++  .gitignore file ++++++
+-   .gitignore file used to prevent to move sensitive data into github repository. We will mentioned the files / folder names in .gitignor these files and folders will not push on github. 
+-   For .gitignore we use "Git Ignore Genereators" from google and add node in search bar it will create git ignore general files which mostly used. i am using this link "https://mrkandreev.name/snippets/gitignore-generator/"
+
+
++++++  .env file  ++++++
+-   it is also production file. It will not move into github
+
++++++  src folder  ++++++
+-   This folder will hold my all components my all logic files.
+
+
++++++  nodemon packege  ++++++
+-   When ever we change in the files and folder we must need to restart our server to get new changes.
+-   nodemon package used to help us to auto restart our server on save changes. No need to restart server.
+-   we install this package in dev-Dependency. This mean it will only use in Dev enviornment not in production enviornment.
+-   command use " npm install -D nodemon". 
+-   -D use to install this package as dev Dependency.
+-   add this code in "package.json" file.
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    }
+
++++++  package.json  ++++++
+-   add "type" : "module" in this file before "script". It is used to "import" the required package if i set commonJs instead of module then "required" key word use to import the package.
+
+
+
