@@ -64,6 +64,33 @@ How to setup a Backend Project Professionally.
 - Install express using command "npm install express"
 
 
-+++++  mongoos package  ++++++
++++++  mongoose package  ++++++
 
-- Install mongoos using command "npm install mongoos"
+- Install mongoose using command "npm install mongoos"
+
++++++  cookies parser npm packege  ++++++
+
+- Install cookie-parser using command "npm install cookie-parser"
+
++++++  cors npm packege  ++++++
+
+- Install cors using command "npm install cors"
+
++++++  mongoose-aggregate-paginate-v2 npm packege  ++++++
+
+- Install mongoose-aggregate-paginate-v2 using command "npm install mongoose-aggregate-paginate-v2"
+
++++++  bcrypt npm packege  ++++++
+
+- Install mongobcrypt using command "npm i bcrypt"
+-   it is used to encypt and decrypt your password fields in database
+
++++++  jsonwebtoken (JWT) npm packege  ++++++
+
+- Install jsonwebtoken (JWT) using command "npm i jsonwebtoken"
+-   it is used to create web token you can also visit this site jwt.io, bcrypt and jwt both use to encrypt your fields in database and jwt also use to decrypt it.
+-   JWT basically a key of lock in other world it is decrypt key of encrypt data. It is also called beared token
+
+
+
+
