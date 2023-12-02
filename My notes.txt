@@ -44,4 +44,26 @@ How to setup a Backend Project Professionally.
 -   ".prettierrc" (it save prettier configuration. you can also read the documentation of this) 
 -   ".prettierignore" (it save these files name which we mentioned that where prettier formatting will not work, you can also get general files from Google by prettier ignore generator)
 
++++++  dotenv package  ++++++
 
+-   It is used to import .env file as soon as possible when your application will load.
+- Install dotenv using command "npm install dotenv"
+- add in your index.js file which will run application.
+        import dotenv from 'dotenv';
+        dotenv.config({
+            path: './env' //path of your env file in your project
+        })
+
+- Add these lines in your package.json file
+        "scripts": {
+            "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+        }
+
++++++  Express package  ++++++
+
+- Install express using command "npm install express"
+
+
++++++  mongoos package  ++++++
+
+- Install mongoos using command "npm install mongoos"
