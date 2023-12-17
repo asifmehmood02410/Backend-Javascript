@@ -91,6 +91,21 @@ How to setup a Backend Project Professionally.
 -   it is used to create web token you can also visit this site jwt.io, bcrypt and jwt both use to encrypt your fields in database and jwt also use to decrypt it.
 -   JWT basically a key of lock in other world it is decrypt key of encrypt data. It is also called beared token
 
++++++  File Upload  ++++++
+
+-   First we upload file from user at UI using multer package and save at our local server temporarly. After that we will move our uploaded file on cloudinary.com
+
+===  cloudinary.com for file upload  ===
+
+-   create account on cloudinary.com
+-   install cloudinary on your project command is "npm install cloudinary"
+
+-   Get your Cloud_Name, API_Key, and API_Secret from settings and save into .env file
+
+
+===  multer npm package  ===
+
+-   multer use to upload file, command to install is  "npm install multer"
 
 
 

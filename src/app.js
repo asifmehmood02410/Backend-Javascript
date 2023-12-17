@@ -19,6 +19,15 @@ app.use(express.static("public")) // i am creating public folder to save my imag
 app.use(cookieParser())
 
 
+//Import Routes
+
+import userRouter from './routes/User.routes.js';
+
+//routes declaration
+
+app.use("/api/v1/users", userRouter); //http://localhost:8000/api/v1/users/register
+
+
 
 
 
