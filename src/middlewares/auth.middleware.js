@@ -1,6 +1,6 @@
-import { User } from "../models/user.model";
-import { ApiError } from "../utils/ApiError";
-import { asyncHandler } from "../utils/asyncHandler";
+import { User } from "../models/user.model.js";
+import { ApiError } from "../utils/ApiError.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
 import jwt from 'jsonwebtoken';
 
 // This middleware is used to authonticate the user, i will use it when i will logout the user first i will call this middleware in routes to authonticate the user by decoding the accessToken and then logout the user.
